@@ -13,7 +13,6 @@ You will need the following packages installed in order to run this code:
 
 You can install these packages using the following command:
 
-
 ## Function Descriptions
 
 ```python
@@ -58,3 +57,10 @@ def create_pulse_signal(duration, start_frequency, end_frequency):
 ```
 
 The default values in the code generate a pulse signal with a duration of 0.001 seconds, start frequency of 16000 Hz and end frequency of 22000 Hz. The continuous signal is generated with a delay of 0.05 seconds between each pulse signal. The exported .wav file is named continuous_sound.wav. You can modify these values according to your needs.
+
+## Output
+
+<video width="320" height="240" controls>
+  <source src="./output.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
